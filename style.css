@@ -36,10 +36,6 @@
     --radius-sm: .8rem;
     --radius-md: 1.2rem;
     --radius-lg: 2rem;
-
-    /* TRANSITIONS */
-    --transition:
-        all .3s ease;
 }
 
 * {
@@ -141,7 +137,6 @@ button {
     border-radius: 12px;
     margin: 10px 0;
     background-image: var(--gradient-primary);
-    transition: var(--transition);
 }
 
 @media(max-width:768px) {
