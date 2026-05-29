@@ -11,32 +11,54 @@
 
 <body>
 
+    <!-- Seção principal do sorteador -->
     <section>
+
+        <!-- Imagem do dado -->
         <img src="./assets/imagen-dado.png" alt="imagem de dado" width="140px">
+
+        <!-- Título principal -->
         <h1>Sorteador de <span>Números</span></h1>
+
+        <!-- Texto informativo -->
         <p class="inf">Informe o intervalo e clique em sortear</p>
+
+        <!-- Container dos inputs -->
         <div class="container">
+
+            <!-- Campo do número mínimo -->
             <label>
                 <p>Número mínimo</p>
-                <input type="number" id="input-min">
+                <input type="number" id="inputMin">
             </label>
 
+            <!-- Texto entre os inputs -->
             <div class="conj">
                 <p>até</p>
             </div>
 
+            <!-- Campo do número máximo -->
             <label>
                 <p>Número máximo</p>
-                <input type="number" id="input-max">
+                <input type="number" id="inputMax">
             </label>
         </div>
 
+        <!-- Texto que informa o resultado -->
+        <p class="notice">O número sorteado é:</p>
+
+        <!-- Área onde o número sorteado será exibido -->
         <div class="contador">
-            <p id="result">78</p>
+            <h2 class="selectNumber" id="ResultNumber">--</h2>
         </div>
 
-        <button>Sorteador de número</button>
+        <!-- Botão que chama a função JavaScript -->
+        <button onclick="selectNumber()">Sorteador de número</button>
+
     </section>
+
+    <!-- Conecta o arquivo JavaScript -->
+    <script src="script.js"></script>
 
 </body>
 

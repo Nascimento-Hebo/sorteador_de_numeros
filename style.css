@@ -38,12 +38,14 @@
     --radius-lg: 2rem;
 }
 
+/* Remove margens e espaçamentos padrões de todos os elementos */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Estilização do corpo da página */
 body {
     font-family: "Inter", sans-serif;
     min-height: 100dvh;
@@ -56,6 +58,7 @@ body {
     align-items: center;
 }
 
+/* Estilização da seção principal */
 section {
     display: flex;
     flex-direction: column;
@@ -69,20 +72,23 @@ section {
     background-color: backdrop-filter blur(10px);
 }
 
+/* Cor do título principal */
 h1 {
     color: var(--text-primary);
 }
 
-
+/* Cor destacada para o span */
 span {
     color: var(--primary);
 }
 
+/* Texto informativo */
 .inf {
     color: var(--text-muted);
     letter-spacing: 1px;
 }
 
+/* Container dos inputs */
 .container {
     display: flex;
     justify-content: center;
@@ -92,15 +98,18 @@ span {
     margin: 1rem 0 1rem 0;
 }
 
+/* Estilo geral dos parágrafos */
 p {
     color: var(--text-secondary);
 }
 
+/* Estilização das labels */
 label {
     width: 35%;
     height: 50px;
 }
 
+/* Estilo dos campos de entrada */
 input {
     background-color: var(--input-bg);
     width: 100%;
@@ -114,11 +123,13 @@ input {
     border-radius: var(--radius-sm);
 }
 
+/* Div que contém o texto "até" */
 .conj {
     display: flex;
     align-items: center;
 }
 
+/* Caixa que mostra o número sorteado */
 .contador {
     width: 80px;
     height: 30px;
@@ -129,6 +140,17 @@ input {
     background-color: var(--input-bg);
 }
 
+/* Texto informativo do resultado */
+.notice {
+    margin: 10px;
+}
+
+/* Cor do número sorteado */
+h2 {
+    color: var(--text-primary);
+}
+
+/* Estilo do botão */
 button {
     width: 50%;
     height: 2.5rem;
@@ -139,17 +161,22 @@ button {
     background-image: var(--gradient-primary);
 }
 
+/* Responsividade para telas menores */
 @media(max-width:768px) {
+
+    /* Ajustes da seção em tablets e celulares */
     section {
         width: 80%;
         height: 30rem;
         text-align: center;
     }
 
+    /* Faz os labels ocuparem toda a largura */
     label {
         width: 100%;
     }
 
+    /* Espaçamento inferior do contador */
     .contador {
         margin-bottom: 10px;
     }
