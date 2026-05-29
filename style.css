@@ -180,4 +180,8 @@ button {
     .contador {
         margin-bottom: 10px;
     }
+
+    h2 {
+        color: var(--text-primary);
+    }
 }
