@@ -75,7 +75,6 @@ section {
 
 h1 {
     color: var(--text-primary);
-    letter-spacing: 2px;
 }
 
 
@@ -150,5 +149,13 @@ button {
         width: 80%;
         height: 30rem;
         text-align: center;
+    }
+
+    label {
+        width: 100%;
+    }
+
+    .contador {
+        margin-bottom: 10px;
     }
 }
