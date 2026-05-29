@@ -158,7 +158,12 @@ button {
     outline: none;
     border-radius: 12px;
     margin: 10px 0;
+    border: 7 solid var(--primary);
     background-image: var(--gradient-primary);
+}
+
+button:active {
+    background-image: var(--primary-light);
 }
 
 /* Responsividade para telas menores */
@@ -179,6 +184,10 @@ button {
     /* Espaçamento inferior do contador */
     .contador {
         margin-bottom: 10px;
+    }
+
+    .notice {
+        margin: 10px;
     }
 
     h2 {

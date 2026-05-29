@@ -7,5 +7,7 @@ function selectNumber() {
 
     const drawnNumber = document.getElementById("ResultNumber");
     drawnNumber.innerHTML = result
+    drawnNumber.style.color = white
+
 
 }
