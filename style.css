@@ -101,6 +101,7 @@ span {
 /* Estilo geral dos parágrafos */
 p {
     color: var(--text-secondary);
+    text-align: center;
 }
 
 /* Estilização das labels */
@@ -158,6 +159,7 @@ button {
     outline: none;
     border-radius: 12px;
     margin: 10px 0;
+    padding: 10px;
     border: 7 solid var(--primary);
     background-image: var(--gradient-primary);
 }
@@ -172,7 +174,7 @@ button:active {
     /* Ajustes da seção em tablets e celulares */
     section {
         width: 80%;
-        height: 30rem;
+        height: 32rem;
         text-align: center;
     }
 
